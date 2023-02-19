@@ -1,0 +1,68 @@
+
+body{
+    
+    
+    /* https://stock.adobe.com/uk/search?k=leaf+patterns */
+
+    background-image: url(images/leafpattern.jpg);
+    /* , -moz-repeating-radial-gradient(center, white 0, darkolivegreen  6%, #F0EAD6 170px); */
+    background-position: center;
+
+
+     }
+  
+*{
+  text-align: center;
+}
+
+
+
+.row{
+  border-radius: 1vw;
+  display: flex;
+  background-color: aliceblue;
+  opacity: 55%;
+  margin: 2vh;
+  padding: 2vh;
+  border: 1vh solid darkslateblue;
+}
+
+.green:hover{
+ 
+  
+  background-color: rgb(22, 138, 73);
+}
+
+.red:hover{
+  background-color: rgb(102, 14, 20);
+}
+
+.blue:hover{
+
+  background-color: turquoise;
+}
+
+button{
+ padding: auto;
+ margin: 3px;
+
+  
+  border: currentColor 1px;
+  border-radius: 50%;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -moz-transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  
+}
+
+button:hover, .btn:hover{
+  transform: scale(1.15);
+}
+
+
+
+header, .header{
+    align-items: center;
+    justify-content: center;
+  }
+
+

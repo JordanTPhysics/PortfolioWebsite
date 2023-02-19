@@ -1,0 +1,10 @@
+:root{
+    width: 15vw;
+    height: 15vh;
+    background-image: -moz-repeating-radial-gradient(rgba(250,174,239,0.2) 9%, transparent 9%);
+    background-position: 0% 0%;
+    background-size: contain;
+}
+.calendar{
+    border: 3px blueviolet solid;
+}
