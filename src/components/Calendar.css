@@ -7,4 +7,5 @@
 }
 .calendar{
     border: 3px blueviolet solid;
+    overflow: visible;
 }

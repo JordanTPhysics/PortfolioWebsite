@@ -20,9 +20,8 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx', '.json', '.css'],
-    modulesDirectories: [
-      'node_modules'
-    ]
+    
+    
   },
   module: {
     rules: [
@@ -31,10 +30,6 @@ module.exports = {
         use: [
           "style-loader", "css-loader"
           
-        ],
-        include: [
-          path.resolve(__dirname, "./src"),
-          path.resolve(__dirname, "./node_modules")
         ]
       },
     
