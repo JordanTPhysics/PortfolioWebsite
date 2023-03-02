@@ -11,6 +11,7 @@ export default function App(){
     
     const styles={
         backgroundImage: "url(images/leafpattern.jpg)",
+        backgroundColor: "olive",
         width: '100vw',
         
         
@@ -56,7 +57,7 @@ export default function App(){
 
 If you're interested in learning more about my counselling services or would like to schedule a confidential appointment with me, please don't hesitate to contact me. I look forward to hearing from you!
         <br/>
-        <Calendar/>
+        {/* <Calendar/> */}
     </div>
 
     <div className="row users">

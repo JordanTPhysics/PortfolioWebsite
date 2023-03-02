@@ -5,13 +5,13 @@ import './Calendar.css'
 
 function Calendar() {
 
-  const [date, setDate] = useState(new Date());
+  const [dates, setDates] = useState([new Date(),new Date()]);
   
   
 
     return (
       <div className='calendar'>
-        <DatePicker value={date} onChange={setDate} closeCalendar={false} maxDetail="month"/>
+        <DatePicker value={dates} onChange={setDates} closeCalendar={false} maxDetail="month"/>
       </div>
     );
   }
