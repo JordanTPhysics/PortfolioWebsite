@@ -1,8 +1,12 @@
 
 
-import React, {useState} from 'react';
+import React, {useState, useRef} from 'react';
 import { send, sendForm } from 'emailjs-com';
+import emailjs from '@emailjs/browser';
+
+
 function Form() {
+
 
     const [toSend, setToSend] = useState({
         name: 'test',
@@ -13,14 +17,14 @@ function Form() {
       });
 
 
-    const handleSubmit = () => {
-        
+    const handleSubmit = (e) => {
+        e.preventDefault();
         console.log(toSend);
-    sendForm(
-      'service_iryb57a',
-      'template_vjk0znj',
-      '#sendform',
-      'gMR92eFA3T6gvrUzV'
+    send(
+      "service_iryb57a",
+      "template_vjk0znj",
+      toSend,
+      '6whHcU3NoQSrGV7PG'
     )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
@@ -28,6 +32,7 @@ function Form() {
       .catch((err) => {
         console.log('FAILED...', err.text);
       });
+      alert('Your message was successfully sent!')
     }
 
     const handleForm = (e) => {
@@ -40,7 +45,7 @@ function Form() {
     return (
         <div>
             {/* using Gmail service_iryb57a as an endpoint to send emails from*/}
-          <form id='sendform' method="post" onSubmit={handleSubmit}>
+          <form id='sendform' method="post" onSubmit={handleSubmit} >
             <label htmlFor="name"> Name</label><br/>
             <input type="text" name='name' id="name" value={toSend.name} onChange={handleForm} required/><br/>
 
