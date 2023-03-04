@@ -36,7 +36,7 @@ function Review() {
             {isClicked && 
             <form method="post" onSubmit={handleSubmit}>
             <div>
-                <title>How many sessions have you had?</title>
+                <span>How many sessions have you had?</span>
         <input type="radio" id="contactChoice1" name="time" value="Just one" />
         <label htmlFor="contactChoice1">Just one</label>
 
@@ -47,7 +47,7 @@ function Review() {
         <label htmlFor="contactChoice3">More than 5</label>
         </div>
         <div>
-                <title>Are you likely to recommend KGC to a friend/relative?</title>
+                <span>Are you likely to recommend KGC to a friend/relative?</span>
         <input type="radio" id="return1" name="recommend" value="Very unlikely" />
         <label htmlFor="return1">Very unlikely</label>
 
@@ -65,7 +65,7 @@ function Review() {
         </div>
 
         <div>
-                <title>Are you planning on seeking additional counselling?</title>
+                <span>Are you planning on seeking additional counselling?</span>
         <input type="radio" id="returning1" name="returning" value="Very unlikely" />
         <label htmlFor="returning1">Very unlikely</label>
 
@@ -81,6 +81,17 @@ function Review() {
         <input type="radio" id="returning5" name="returning" value="Very likely" />
         <label htmlFor="returning5">Very likely</label>
         </div>
+
+        <label htmlFor="message">Your Message</label><br/>
+            <textarea id="message"
+                      name='message' 
+                      required 
+                      cols="30" 
+                      rows="10" 
+                      value=""
+                      onChange=""
+                      placeholder="My counselling experience...">
+                      </textarea><br/>
             </form>
             }
         </div>

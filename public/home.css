@@ -4,7 +4,7 @@ body{
     
     /* https://stock.adobe.com/uk/search?k=leaf+patterns */
     background-position: center;
-    background-image: linear-gradient(to right, rgba(143,188,143, 0.7), rgba(109,113,46, 0.8)), url(images/leafpattern.jpg);
+    /* background-image: linear-gradient(to right, rgba(143,188,143, 0.7), rgba(109,113,46, 0.8)), url(images/leafpattern.jpg); */
     opacity: 90%;
      }
   
@@ -14,10 +14,14 @@ body{
  
 }
 
+.page{
+  background-image: linear-gradient(to right, rgba(143,188,143, 0.7), rgba(109,113,46, 0.8)), url(images/leafpattern.jpg);
+}
+
 .container{
   
   opacity: 90%;
-        width: '100vw';
+  width: '100vw';
 }
 
 
@@ -34,7 +38,7 @@ body{
   
   margin: 2vh;
   padding: 2vh;
-  border: 1vh solid darkslateblue;
+  border: 2vh solid darkslateblue;
 }
 
 .green:hover{
@@ -75,4 +79,5 @@ header, .header{
 img{
   width: 20rem;
   height: 25rem;
+  border: 1vh solid darkslateblue;
 }
