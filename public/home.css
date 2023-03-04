@@ -4,8 +4,8 @@ body{
     
     /* https://stock.adobe.com/uk/search?k=leaf+patterns */
     background-position: center;
-
-
+    background-image: linear-gradient(to right, rgba(143,188,143, 0.7), rgba(109,113,46, 0.8)), url(images/leafpattern.jpg);
+    opacity: 90%;
      }
   
 *{
@@ -15,10 +15,12 @@ body{
 }
 
 .container{
-  background-image: linear-gradient(to right, darkseagreen, olive), url(images/leafpattern.jpg);
+  
   opacity: 90%;
         width: '100vw';
 }
+
+
 
 .row{
   border-radius: 1vw;
@@ -28,7 +30,7 @@ body{
   align-items: center;
 
   
-  background-color: rgba(240, 248, 255, 0.55);
+  /* background-image: linear-gradient(to right, darkseagreen, olive); */
   
   margin: 2vh;
   padding: 2vh;

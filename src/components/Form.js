@@ -45,7 +45,7 @@ function Form() {
     return (
         <div>
             {/* using Gmail service_iryb57a as an endpoint to send emails from*/}
-          <form id='sendform' method="post" onSubmit={handleSubmit} >
+          <form  method="post" onSubmit={handleSubmit} >
             <label htmlFor="name"> Name</label><br/>
             <input type="text" name='name' id="name" value={toSend.name} onChange={handleForm} required/><br/>
 
@@ -90,7 +90,7 @@ function Form() {
                       <div style={{margin:"10px"}}></div>
             <button className="green" type="submit">Send Message</button><br></br>
             <div style={{margin:"10px"}}></div>
-            <button className="blue">Leave A Review</button>
+            
         </form>  
         </div>
     );

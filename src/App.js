@@ -1,29 +1,23 @@
 
 
-import React from 'react';
-import { ReactDOM } from 'react';
+import React, {useState, useRef} from 'react';
+
 
 import Form from './components/Form';
 import Calendar from './components/Calendar';
+import Review from './components/Review';
 
 
 export default function App(){
     
-    const styles={
-        backgroundImage: "url(images/leafpattern.jpg)",
-        backgroundColor: "olive",
-        width: '100vw',
-        
-        
-        
-    };
+    
 
     return(
-        <div style={styles}>
+        <div className='page'>
     <div className="container header">
     <header className="row">
         
-        <h2>Kat's Counselling</h2>
+        <h2>Kat Garsia Counselling</h2>
     </header>
     
         <div className="row cover">
@@ -63,9 +57,12 @@ If you're interested in learning more about my counselling services or would lik
     <div className="row users">
 
         <Form />
-
+            
+            
     </div>
-
+        <div className='row review'>
+            <Review/>
+        </div>
         <br/>
     </div>
     </div>
