@@ -24,8 +24,7 @@ export default function App(){
             <div className="col-md-6">
         
             {/* https://www.shutterstock.com/search/counselor-cartoon */}
-            <img src="/images/kat.jpg" width={0.2}  style={{opacity: "100%"}}/>
-        
+            <img src="/images/kat.jpg" width={0.2}/>
     </div>
     <div className="col-md-6"><p>Have things been feeling different for you lately? 
         Perhaps you have unanswered questions about your life. Come relax with a cup of tea and get all that energy off your chest

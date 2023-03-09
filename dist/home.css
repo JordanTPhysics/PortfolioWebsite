@@ -38,7 +38,7 @@ body{
   
   margin: 2vh;
   padding: 2vh;
-  border: 1vh solid darkslateblue;
+  border: 2vh solid darkslateblue;
 }
 
 .green:hover{
@@ -69,38 +69,7 @@ button:hover, .btn:hover{
   transform: scale(1.15);
 }
 
-input[type="radio"] {
-  appearance: none;
-  background-color: #fff;
-  margin: 0;
-  font: inherit;
-  color: currentColor;
-  width: 1.15em;
-  height: 1.15em;
-  border: 0.15em solid currentColor;
-  border-radius: 50%;
-  transform: translateY(-0.075em);
-  display: grid;
-  place-content: center;
-}
 
-input[type="radio"]::before {
-  content: "";
-  width: 0.65em;
-  height: 0.65em;
-  border-radius: 50%;
-  transform: scale(0);
-  transition: 120ms transform ease-in-out;
-  box-shadow: inset 1em 1em var(--form-control-color);
-}
-
-input[type="radio"]:checked::before {
-  transform: scale(1);
-}
-
-input[type="radio"]:focus {
-  color: darkorchid;
-}
 
 header, .header{
     align-items: center;
@@ -110,6 +79,5 @@ header, .header{
 img{
   width: 20rem;
   height: 25rem;
-  border: 0.5vh solid darkseagreen;
-  border-radius: 3%;
+  border: 1vh solid darkslateblue;
 }

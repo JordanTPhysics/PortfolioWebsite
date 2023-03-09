@@ -36,50 +36,50 @@ function Review() {
             {isClicked && 
             <form method="post" onSubmit={handleSubmit}>
             <div>
-                <span>How many sessions have you had?</span>
-        <input type="radio" id="contactChoice1" name="time" value="Just one" />
-        <label htmlFor="contactChoice1">Just one</label>
+                <span>How many sessions have you had?</span><br/>
+        <input type="radio" id="contactChoice1" name="time" value="Just one" /><br/>
+        <label htmlFor="contactChoice1">Just one</label><br/>
 
-        <input type="radio" id="contactChoice2" name="time" value="Up to 5" />
-        <label htmlFor="contactChoice2">Up to 5</label>
+        <input type="radio" id="contactChoice2" name="time" value="Up to 5" /><br/>
+        <label htmlFor="contactChoice2">Up to 5</label><br/>
 
-        <input type="radio" id="contactChoice3" name="time" value="More than 5" />
-        <label htmlFor="contactChoice3">More than 5</label>
+        <input type="radio" id="contactChoice3" name="time" value="More than 5" /><br/>
+        <label htmlFor="contactChoice3">More than 5</label><br/>
         </div>
         <div>
-                <span>Are you likely to recommend KGC to a friend/relative?</span>
-        <input type="radio" id="return1" name="recommend" value="Very unlikely" />
-        <label htmlFor="return1">Very unlikely</label>
+                <span>Are you likely to recommend KGC to a friend/relative?</span><br/>
+        <input type="radio" id="return1" name="recommend" value="Very unlikely" /><br/>
+        <label htmlFor="return1">Very unlikely</label><br/>
 
-        <input type="radio" id="return2" name="recommend" value="Unlikely" />
-        <label htmlFor="return2">Unlikely</label>
+        <input type="radio" id="return2" name="recommend" value="Unlikely" /><br/>
+        <label htmlFor="return2">Unlikely</label><br/>
 
-        <input type="radio" id="return3" name="recommend" value="Unsure" />
-        <label htmlFor="return3">Unsure</label>
+        <input type="radio" id="return3" name="recommend" value="Unsure" /><br/>
+        <label htmlFor="return3">Unsure</label><br/>
 
-        <input type="radio" id="return4" name="recommend" value="Likely" />
-        <label htmlFor="return4">Likely</label>
+        <input type="radio" id="return4" name="recommend" value="Likely" /><br/>
+        <label htmlFor="return4">Likely</label><br/>
 
-        <input type="radio" id="return5" name="recommend" value="Very likely" />
-        <label htmlFor="return5">Very likely</label>
+        <input type="radio" id="return5" name="recommend" value="Very likely" /><br/>
+        <label htmlFor="return5">Very likely</label><br/>
         </div>
 
         <div>
-                <span>Are you planning on seeking additional counselling?</span>
-        <input type="radio" id="returning1" name="returning" value="Very unlikely" />
-        <label htmlFor="returning1">Very unlikely</label>
+                <span>Are you planning on seeking additional counselling?</span><br/>
+        <input type="radio" id="returning1" name="returning" value="Very unlikely" /><br/>
+        <label htmlFor="returning1">Very unlikely</label><br/>
 
-        <input type="radio" id="returning2" name="returning" value="Unlikely" />
-        <label htmlFor="returning2">Unlikely</label>
+        <input type="radio" id="returning2" name="returning" value="Unlikely" /><br/>
+        <label htmlFor="returning2">Unlikely</label><br/>
 
-        <input type="radio" id="returning3" name="returning" value="Unsure" />
-        <label htmlFor="returning3">Unsure</label>
+        <input type="radio" id="returning3" name="returning" value="Unsure" /><br/>
+        <label htmlFor="returning3">Unsure</label><br/>
 
-        <input type="radio" id="returning4" name="returning" value="Likely" />
-        <label htmlFor="returning4">Likely</label>
+        <input type="radio" id="returning4" name="returning" value="Likely" /><br/>
+        <label htmlFor="returning4">Likely</label><br/>
 
-        <input type="radio" id="returning5" name="returning" value="Very likely" />
-        <label htmlFor="returning5">Very likely</label>
+        <input type="radio" id="returning5" name="returning" value="Very likely" /><br/>
+        <label htmlFor="returning5">Very likely</label><br/>
         </div>
 
         <label htmlFor="message">Your Message</label><br/>
