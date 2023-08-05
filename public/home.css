@@ -15,7 +15,7 @@ body{
 }
 
 .page{
-  background-image: linear-gradient(to right, rgba(143,188,143, 0.7), rgba(109,113,46, 0.8)), url(images/leafpattern.jpg);
+  background-image: linear-gradient(to bottom, rgba(14, 12, 63, 0.7), rgba(109,113,46, 0.8));/* , url(images/leafpattern.jpg); */
 }
 
 .container{
@@ -110,6 +110,6 @@ header, .header{
 img{
   width: 20rem;
   height: 25rem;
-  border: 0.5vh solid darkseagreen;
-  border-radius: 3%;
+  
+  
 }
